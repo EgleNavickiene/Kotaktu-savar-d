@@ -14,43 +14,43 @@ p {
 
 .card {
   width: 45%;
-  border: 5px solid green;
   float:left;
   box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
+    max-width: 90%;
 }
 /* Toks css selektorius ieskos input elemento .form-input-field elemento viduje */
 .form-input-field input {
     /* Stengtis nenaudoti fiksuotu px reiksmiu auksciui ir plociui */
-    width:600px;
-    max-height: 20px;
-    padding: 5px;
+    width:75%;
+    padding: 15px;
+    margin: 10px;
     font-size: 16px;
     /* Sintakses klaida, neuzdarytas color, tada css ignoruoja eilutes einancias toliau */
-    color:grey
+    color:grey;
     background-color: #f3f3f3;
+    border-style: none;
+    border-radius: 5px;
 }
 
 #button {
     /* width: 90px; */
     padding: 10px;
+    margin: 10px;
     color:white;
     background-color: black;
-}
-
-label {
-    width:200px;
-    color:grey;
-    padding:10px;
-    margin:10px;
-    background-color: #f3f3f3;
+    border-radius: 5px;
 }
 
 textarea {
     font-size: 16px;
     background-color: #f3f3f3;
-    color:grey
+    color:grey;
+    margin: 10px;
+    padding:15px;
+    border-style: none;
+    border-radius: 5px;
+    width: 75%;
 }
