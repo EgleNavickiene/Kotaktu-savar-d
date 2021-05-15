@@ -40,7 +40,8 @@ input {
 
 label {
     width:200px;
-    color:grey
+    color:grey;
+    padding:10px;
     background-color: #f3f3f3;
 }
 
