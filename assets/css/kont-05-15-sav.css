@@ -1,11 +1,11 @@
 body {
-    margin: 5%;
     font-family: Roboto;
 }
 
 .container {
-    margin: auto;
-    max-width: 1280px;
+    margin: 5% auto;
+    max-width: 860px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -18,19 +18,21 @@ p {
 }
 
 .card {
-  width: 45%;
-  margin: 5px;
+  width: 50%;
+  padding: 5px;
+  /* margin: 5px; */
   float:left;
   box-sizing: border-box;
 }
 
 img {
-    max-width: 90%;
+    margin-top: 5%;
+    max-width: 100%;
 }
 /* Toks css selektorius ieskos input elemento .form-input-field elemento viduje */
 .form-input-field input {
     /* Stengtis nenaudoti fiksuotu px reiksmiu auksciui ir plociui */
-    width:75%;
+    width:100%;
     padding: 15px;
     margin: 10px;
     font-size: 16px;
@@ -48,6 +50,7 @@ img {
     color:white;
     background-color: black;
     border-radius: 5px;
+    border-style: none;
 }
 
 textarea {
@@ -59,7 +62,7 @@ textarea {
     padding:15px;
     border-style: none;
     border-radius: 5px;
-    width: 75%;
+    width: 100%;
 }
 
     @media only screen and (max-width: 768px) {
